@@ -1,0 +1,73 @@
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.booking-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.booking-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Adjust width as needed */
+}
+
+.passenger-form {
+    flex: 1;
+    margin-right: 20px; /* Spacing between form and passenger list */
+    padding: 20px;
+    border: 1px solid #ccc; /* Add border for styling */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-input, .form-select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-passenger-button, .proceed-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.passengers-container {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc; /* Add border for styling */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-height: 400px; /* Limit height for scrolling */
+    overflow-y: auto; /* Add scrolling for overflow */
+}
+
+.passenger-card {
+    background-color: #fff; /* Background for passenger cards */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.passenger-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.passengers-title {
+    margin-bottom: 15px;
+}

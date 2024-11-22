@@ -1,0 +1,60 @@
+.seat-class-list__content {
+    width: 100%; /* Adjusts width as necessary */
+    padding: 20px;
+    margin: 20px auto; /* Centers the table horizontally */
+    overflow-x: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex; /* Flex container */
+    justify-content: center; /* Centers the table content horizontally */
+  }
+  
+  .seat-class-list__table {
+    width: 100%; /* Sets the table width */
+    max-width: 100%; /* Prevents it from expanding beyond the container */
+    border-collapse: collapse;
+    margin-top: 15px;
+    table-layout: auto;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .seat-class-list__table th,
+  .seat-class-list__table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  .seat-class-list__table th {
+    background-color: #17B3E8;
+    color:#fff;
+    font-weight: bold;
+  }
+  
+  .seat-class-list__table td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #17B3E8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1D4369;
+  }
+  

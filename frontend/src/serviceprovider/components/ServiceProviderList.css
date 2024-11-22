@@ -1,0 +1,41 @@
+/* ServiceProviderList.css */
+.service-provider-list__content {
+  width: 100%; /* Adjusts width as necessary */
+  padding: 20px;
+  margin: 20px auto; /* Centers the table horizontally */
+  overflow-x: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex; /* Flex container */
+  justify-content: center; /* Centers the table content horizontally */
+}
+  
+  .service-provider-list__table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    table-layout: auto;
+  }
+  
+  .service-provider-list__table th{
+    background-color: #17B3E8;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+  }
+
+  .service-provider-list__table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,41 @@
+.role-item {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 17.5rem;
+  }
+  
+  .role-item a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    background: #292929;
+  }
+  
+  .role-item a:hover,
+  .role-item a:active {
+    background: #ffd900;
+  }
+  
+  .role-item__content {
+    padding: 0;
+    background: #17B3E8;
+
+  }
+  
+  .role-item__info h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: bolder;
+    color: #ffffff;
+  }
+  
+  .role-item:hover h2,
+  .role-item:active h2{
+    color: #1D4369;
+  }
+  

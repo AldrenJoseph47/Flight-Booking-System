@@ -1,0 +1,64 @@
+.authentication__header {
+    color: #17B3E8;
+    text-align: center;
+  }
+  
+  .authentication {
+    width: 90%;
+    max-width: 25rem;
+    margin: 7rem auto;
+    text-align: center;
+  }
+  
+  .authentication form {
+    margin-bottom: 1rem;
+  }
+  .button {
+    background-color: #17B3E8; /* Green background */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:disabled {
+    background-color: #cccccc; /* Gray background when disabled */
+    cursor: not-allowed;      /* Change cursor to not-allowed when disabled */
+  }
+  
+  .button:enabled:hover {
+    background-color: #1D4369; /* Darker green on hover when enabled */
+  }
+
+  .switch-button {
+    background-color: transparent; /* Transparent background */
+    border: 2px solid #4CAF50; /* Green border */
+    color: #4CAF50; /* Green text */
+    padding: 10px 20px; /* Add some padding */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0; /* Add some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+  }
+  
+  .switch-button:hover {
+    background-color: #4CAF50; /* Green background on hover */
+    color: white; /* White text on hover */
+  }
+
+  .error-text {
+    color: red;
+    margin: 10px 0;
+    font-weight: bold;
+}
+

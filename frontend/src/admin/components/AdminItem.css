@@ -1,0 +1,26 @@
+/* AdminItem.css */
+.admin-item__image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.admin-item {
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.admin-item td {
+  padding: 12px;
+  text-align: center;
+}
+
+.admin-item td img {
+  border-radius: 50%;
+}
+
+.admin-item:hover {
+  background-color: #17B3E8;
+  color: #ffffff;
+}

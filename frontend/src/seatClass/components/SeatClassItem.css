@@ -1,0 +1,14 @@
+.seat-class-item {
+background-color: #ffffff;
+align-items: center;
+}
+
+.seat-class-item td {
+padding: 12px;
+text-align: center;
+}
+
+.seat-class-item:hover {
+background-color: #17B3E8;
+color: #ffffff;
+}

@@ -1,0 +1,42 @@
+/* Homepage styling */
+.homepage {
+    position: relative;
+    height: 100vh;
+    width: 100vw; /* Ensures full width */
+    overflow: hidden;
+}
+
+/* Background video styling */
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Overlay styling */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Button styling */
+.get-started-button,
+.signup-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

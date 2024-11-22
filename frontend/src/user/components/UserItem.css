@@ -1,0 +1,26 @@
+/* UserItem.css */
+.user-item__image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-item {
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.user-item td {
+  padding: 12px;
+  text-align: center;
+}
+
+.user-item td img {
+  border-radius: 50%;
+}
+
+.user-item:hover {
+  background-color: #17B3E8;
+  color: #ffffff;
+}
