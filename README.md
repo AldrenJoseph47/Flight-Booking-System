@@ -10,9 +10,6 @@ A full-stack web application for managing vehicle inventories, designed for thre
 4. [Folder Structure](#folder-structure)
 5. [API Endpoints](#api-endpoints)
 6. [User Roles](#user-roles)
-7. [Screenshots](#screenshots)
-8. [Contributing](#contributing)
-9. [License](#license)
 
 ---
 
@@ -26,8 +23,6 @@ A full-stack web application for managing vehicle inventories, designed for thre
   - Filter and search for vehicles by make, model, year, and more
 - **Pagination**
   - Manage large inventories with pagination
-- **Responsive UI**
-  - Mobile-friendly and user-friendly design
 - **Role-Based Features**
   - Admin: Full access to all system functionalities
   - Service Provider: Manage vehicles they own
@@ -38,14 +33,14 @@ A full-stack web application for managing vehicle inventories, designed for thre
 ## Technologies Used
 
 ### Frontend
-- React.js (TypeScript)
+- React.js
 - Bootstrap 4.1.1
 - React Router
 
 ### Backend
 - Node.js
 - Express.js
-- MongoDB (Mongoose for ORM)
+- MongoDB
 
 ### Other Tools
 - JWT for authentication
